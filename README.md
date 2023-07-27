@@ -1,6 +1,4 @@
 # portfolio
-<!DOCTYPE html>
-<html>
 
 <h1> Personal Website UNDER DEVELOPMENT</h1>
 <h2>Thank you for your patience. This is CV Version. </h2>
