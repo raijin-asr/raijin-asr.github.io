@@ -79,7 +79,7 @@ h6 {
   z-index: 9997;
   transition: all 0.5s;
   padding: 0 15px;
-  background: #040b14;
+  background: #eb8f81;
   overflow-y: auto;
 }
 
@@ -176,7 +176,7 @@ h6 {
 .nav-menu a:focus {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #000000;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
