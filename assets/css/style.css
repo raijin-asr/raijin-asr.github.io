@@ -91,11 +91,12 @@ h6 {
   /* Border radius should be half of the width to make it circular */
   border-radius: 70px;
   color: #fff;
-  background: #111;
   cursor: pointer;
   position: relative;
   z-index: 0;
   background: linear-gradient(45deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  animation: glowing 20s linear infinite;
+  transition: opacity .3s ease-in-out;
 }
 
 .glow-on-hover:before {
