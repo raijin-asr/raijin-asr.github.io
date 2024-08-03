@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
       return template1Days.includes(dayOfWeek) ? 'Portfolio1/index.html' : 'Portfolio2/index.html';
     }
   
-    // Redirect to the appropriate portfolio
-    window.location.href = getTemplateForDay();
+    // Redirect to the appropriate portfolio after 3 secs
+    setTimeout(() => {
+      window.location.href = getTemplateForDay();
+    }
+    , 3000);
   });
