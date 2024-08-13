@@ -269,3 +269,24 @@ h1 {
     opacity: 0;
   }
 }
+
+/* Basic styles for mobile devices */
+@media (max-width: 600px) {
+  /* Adjust h1 for smaller screens */
+  h1 {
+    font-size: 35px; /* Smaller font size */
+    left: 35%;
+    margin-left: -40px;
+    top: 59%;
+  }
+
+  /* Adjust the body positioning and animation for mobile screens */
+  .body {
+      position: absolute;
+      top: 44%;
+      margin-left: 0px;
+      left: 34%;
+      animation: speeder .4s linear infinite;
+  }
+
+}
