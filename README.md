@@ -9,3 +9,6 @@ Fig 1: Animated Loader
 
 ![image](https://github.com/user-attachments/assets/89e7144b-124c-447b-84af-5280a4cf4fb7)
 Fig 2: Portfolio 1
+
+![image](https://github.com/user-attachments/assets/57456d34-c31c-4444-8a4d-37f599ae91d2)
+Fig 3: Portfolio 2
