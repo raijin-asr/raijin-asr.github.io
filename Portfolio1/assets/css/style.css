@@ -301,7 +301,6 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/me4.jpeg") top center;
   background-size: cover;
   position: relative;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.5);
@@ -1175,4 +1174,31 @@ section {
   position: relative;
   box-shadow: 0px 0 30px rgba(0, 0, 0, 0.5);
   transform-style: preserve-3d;
+}
+
+
+/* Background Video in Hero Section */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Place video behind content */
+}
+
+#myBtn {
+  width: 100px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #fff;
+  color: #000;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+#myBtn:hover {
+  background: black;
+  color: #ddd;
 }
