@@ -1180,3 +1180,23 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+/* Background Video in Hero Section */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Place video behind content */
+}
+
+/* Background Video in Hero Section */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; /* Place video behind content */
+}
