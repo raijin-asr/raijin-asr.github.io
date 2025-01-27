@@ -275,3 +275,39 @@ function myFunction() {
     btn.style.color = "white";
   }
 }
+
+// Contact Form to google sheet
+document.getElementById("sendMessage").addEventListener("click", function () {
+  const url = ""; 
+
+  // Collect form data
+  const data = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    subject: document.getElementById("subject").value,
+    message: document.getElementById("message").value,
+  };
+
+  // Send data to Google Sheet
+  fetch(url, {
+    method: "POST",
+    mode: "cors",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(data),
+  })
+    .then((response) => response.json())
+    .then((response) => {
+      if (response.status === "success") {
+        alert("Your message has been sent!");
+        document.getElementById("contactForm").reset();
+      } else {
+        alert("There was an error. Please try again.");
+      }
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+      alert("Failed to send message. Please try again.");
+    });
+});
