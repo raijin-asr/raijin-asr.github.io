@@ -1188,7 +1188,8 @@ section .container {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1; /* Place video behind content */
+  z-index: -1;
+  /* Place video behind content */
 }
 
 /* Background Video in Hero Section */
@@ -1198,5 +1199,6 @@ section .container {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  z-index: -1; /* Place video behind content */
+  z-index: -1;
+  /* Place video behind content */
 }
