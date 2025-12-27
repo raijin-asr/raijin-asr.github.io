@@ -7,7 +7,7 @@
 ![image](https://github.com/user-attachments/assets/4d7614d9-ec2c-4b0f-9f19-f6a81a52eb8f)
 Fig 1: Animated Loader
 
-![image](https://github.com/user-attachments/assets/89e7144b-124c-447b-84af-5280a4cf4fb7)
+<img width="1688" height="882" alt="pp website" src="https://github.com/user-attachments/assets/2d50ddf4-53ff-4ad0-b3bc-7144531a3ec9" />
 Fig 2: Portfolio 1
 
 ![image](<Portfolio1/new output portfoilio ss.png>)
